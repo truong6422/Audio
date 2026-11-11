@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "type": "module",
+  "main": "run-all.mjs",
+  "description": "Node 22.11 coi `node --test tests/` là chạy thư mục như module → nạp main này, nó import mọi tệp *.test.mjs."
+}

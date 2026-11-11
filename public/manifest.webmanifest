@@ -1,0 +1,24 @@
+{
+  "id": "/",
+  "name": "Kể Đêm Audio",
+  "short_name": "Kể Đêm",
+  "description": "Nghe truyện audio miễn phí mỗi đêm.",
+  "lang": "vi",
+  "dir": "ltr",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14100e",
+  "theme_color": "#14100e",
+  "categories": ["entertainment", "books"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Tìm truyện", "short_name": "Tìm", "url": "/tim-kiem?utm_source=pwa", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
